@@ -1,7 +1,7 @@
 [project]
-name = "agent-harness-build"
+name = "mcp-agent-harness"
 version = "0.1.0"
-description = "Add your description here"
+description = "An experimental Python harness for tool-using AI agents with MCP integration"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
