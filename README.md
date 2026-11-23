@@ -165,20 +165,6 @@ This repository is an experiment and has not yet been hardened for untrusted or 
 - The Markdown memory store is intentionally simple; it does not yet provide structured retrieval, editing, or deletion.
 - Automated tests, observability, and a web/API interface are not included yet.
 
-**Do not use this prototype with sensitive files, untrusted MCP servers, or production workloads.** Review and secure tool permissions before exposing it to other users.
-
-## Roadmap
-
-Planned engineering improvements:
-
-- [ ] Secure workspace file access and validate tool arguments
-- [ ] Add execution limits, timeouts, and structured error handling
-- [ ] Introduce a centralized, namespaced tool registry
-- [ ] Improve MCP lifecycle management and server configuration validation
-- [ ] Add structured memory and conversation/session management
-- [ ] Add unit and integration tests
-- [ ] Add agent execution tracing and evaluation metrics
-- [ ] Explore a FastAPI interface
 
 ## Contributing
 
